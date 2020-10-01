@@ -4,7 +4,7 @@
 #include <readline/readline.h>
 #include "quiz1.h"
 
-int main(){
+int void(){
   char * n = readline("Enter an integer: ");
   char * base = readline("Enter a base: ");
   int number = atoi(n);
