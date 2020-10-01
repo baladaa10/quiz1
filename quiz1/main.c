@@ -8,7 +8,7 @@ int main(){
   char * n = readline("Enter an integer: ");
   char * base = readline("Enter a base: ");
   int number = atoi(n);
-  int basenumber = atois(base);
+  int basenumber = atoi(base);
   printf("answer is %d.\n", digit_sum_base(number, basenumber));
 }
 
