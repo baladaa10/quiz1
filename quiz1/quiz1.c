@@ -10,7 +10,7 @@ return s;
 }
 int main(){
 int n, base;
-int num = atoi(readline("Enter an int: "));
+printf("Enter an int: ")
 printf("sum is %d.\n", sum_n(num));
 printf("Enter a base: ");
 printf("Answer is %d.\n", digit_sum_base(n,base));
