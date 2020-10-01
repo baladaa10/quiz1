@@ -6,7 +6,7 @@
 
 int digit_sum_base(int n, int base) {
   int s = 0;
-  while(n>0){
+  while(n==0){
     s +=n%base;
 }
 return s;
